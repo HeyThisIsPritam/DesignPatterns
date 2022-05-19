@@ -44,6 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TemplateMethodPattern\AbstractTemplate.cs" />
+    <Compile Include="TemplateMethodPattern\ExcelFile.cs" />
+    <Compile Include="TemplateMethodPattern\TemplateTest.cs" />
+    <Compile Include="TemplateMethodPattern\TextFile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FactoryPattern\" />
