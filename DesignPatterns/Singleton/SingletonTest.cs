@@ -15,9 +15,9 @@ namespace DesignPatterns.Singleton
             //Console.WriteLine(single1.GetHashCode());
             //Console.WriteLine(single2.GetHashCode());
 
-            // Calling Singleton now
-            //Singleton single1 = Singleton.GetSingleton();
-            //Singleton single2 = Singleton.GetSingleton();
+            //Calling Singleton now
+            Singleton single1 = Singleton.GetSingleton();
+            Singleton single2 = Singleton.GetSingleton();
             //Console.WriteLine(single1.GetHashCode());
             //Console.WriteLine(single2.GetHashCode()); // now we can see we get the same hashcode , so other object is getting created here.
 
