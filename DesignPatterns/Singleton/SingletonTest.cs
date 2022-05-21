@@ -16,16 +16,16 @@ namespace DesignPatterns.Singleton
             //Console.WriteLine(single2.GetHashCode());
 
             //Calling Singleton now
-            Singleton single1 = Singleton.GetSingleton();
-            Singleton single2 = Singleton.GetSingleton();
+            //Singleton single1 = Singleton.GetSingleton();
+            //Singleton single2 = Singleton.GetSingleton();
             //Console.WriteLine(single1.GetHashCode());
             //Console.WriteLine(single2.GetHashCode()); // now we can see we get the same hashcode , so other object is getting created here.
 
             Console.WriteLine("Same Functionality using Getter Setter");
-            Singleton single1 = Singleton.Instance;
-            Singleton single2 = Singleton.Instance;
-            Console.WriteLine(single1.GetHashCode());
-            Console.WriteLine(single2.GetHashCode());
+            Singleton single3 = Singleton.Instance;
+            Singleton single4 = Singleton.Instance;
+            Console.WriteLine(single3.GetHashCode());
+            Console.WriteLine(single4.GetHashCode());
 
             Console.Read();
         }
