@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Singleton
 {
-    class Singleton
+    public sealed class Singleton //Sealed keyword is used to prevent any kind of inheritance.
     {
         private static Singleton singleton; // we also create a instace in the class level - 2
                                             // we also need to make it static - 5
@@ -32,5 +32,10 @@ namespace DesignPatterns.Singleton
             }
         }
 
+        //public class Derived : Singleton { }  // Using sealed keyword in Base class makes the Singleton pattern more effective.
+                                               //Otherwise it can beinherited and thus ended up creating many objects of the same class
+                                               //which violate the Singleton. 
+
     }
+    
 }

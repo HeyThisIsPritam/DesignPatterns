@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Singleton
 {
-    class SingletonTest
+    public class SingletonTest
     {
+        
         static void Main()
         {
             //singleton single1 = new singleton(); // here 2 diff object of same class has been creating
